@@ -1,3 +1,9 @@
 @tailwind base;
+@layer base {
+    body {
+        font-size: 13px;
+        @apply leading-5;
+    }
+}
 @tailwind components;
 @tailwind utilities;
